@@ -1,0 +1,166 @@
+body{
+    background: url('img/Screenshot\ 2024-09-16\ 192540.png') no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.para{
+    display: block;
+    position: relative;
+    width: 500px;
+    height: 200px;
+    font-weight: bold;
+    font-size: 3.8rem;
+    margin: auto;
+    top: 80px;
+    left: -100px;
+}
+p.user{
+    margin: 0;
+    padding: 2px;
+}
+p.start{
+    margin: 0;
+}
+.container{
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 310px;
+    width: 600px;
+    left: 350px;
+}
+#login{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    width: 500px;
+}
+.child1{
+    /* border: 2px solid rgb(251, 0, 255); */
+    font-size: 1.9rem;
+    display: inline-block;
+    width: 100%;
+    margin: 15px;
+}
+.emailname{
+    display: inline-block;
+    width: 150px;
+    /* border: 2px solid rgb(72, 0, 255); */
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+}
+input[type='email']{
+    display: inline-block;
+    width: 150px;
+    /* border: 2px solid rgb(57, 184, 114); */
+    width: 70%;
+    height: 45px;
+    margin: 0;
+    padding-left: 12px;
+    font-size: 1.2rem;
+}
+input::placeholder{
+    display: inline-block;
+    width: 200px;
+    font-size: 1.2rem;
+}
+
+.password{
+    display: inline-block;
+    width: 150px;
+    /* border: 2px solid rgb(72, 0, 255); */
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+}
+input[type='password']{
+    display: inline-block;
+    width: 150px;
+    /* border: 2px solid rgb(57, 184, 114); */
+    width: 70%;
+    height: 45px;
+    margin: 0;
+    padding-left: 12px;
+    font-size: 1.2rem;
+}
+#submit{
+    display: inline-block;
+    height: 80px;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+button{
+    border: 2px solid black;
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+a{
+    font-size: 28px;
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.start span{
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    animation-name: colorchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+@keyframes colorchange{
+    0%{
+        color: green;
+    }
+    10%{
+        color: rgb(79, 178, 44);
+    }
+    20%{
+        color: rgb(71, 225, 132);
+    }
+    30%{
+        color: rgb(129, 212, 28);
+    }
+    40%{
+        color: rgb(141, 228, 170);
+    }
+    50%{
+        color: rgb(156, 212, 72);
+    }
+    60%{
+        color: rgb(0, 128, 70);
+    }
+    70%{
+        color: rgb(35, 126, 103);
+    }
+    80%{
+        color: rgb(35, 126, 103);
+    }
+    90%{
+        color: rgb(36, 105, 36);
+    }
+    100%{
+        color: rgb(35, 68, 35);
+    }
+    
+}
